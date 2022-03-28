@@ -4,7 +4,6 @@ export const ArticleCard = ({ articleList }) => {
 
   // filtrar por subtype 7
   const articleListBySubType = articleList.filter(article => article.subtype === '7')
-  console.log(articleListBySubType)
   return (
     <div className='flex flex-col w-11/12'>
       <div className='bg-white w-11/12 flex'>
